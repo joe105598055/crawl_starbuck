@@ -1,5 +1,7 @@
+from base64 import encode
 from category import get_categories
 from product import get_products
+import json
 
 categories = get_categories()
 # get_products('/products/food/view.jspx?catId=74')
@@ -15,3 +17,6 @@ for category in categories:
     idx = idx + 1 
 
 print(result)
+
+with open('data.json', 'w',encoding='utf-8') as f:
+    json.dump(result, f, indent=2, ensure_ascii=False)

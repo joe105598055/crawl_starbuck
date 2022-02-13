@@ -1,0 +1,75 @@
+[
+  {
+    "category": "星早餐",
+    "url": "/products/food/view.jspx?catId=77",
+    "catId": "c1",
+    "product_list": [
+      {
+        "name": "楓糖風味布丁麵包",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20211125165436338.jpg",
+        "price": 135,
+        "intro": "布丁麵包以全新的風貌回歸，楓糖香氣濃郁的雞蛋布丁內餡甜而不膩，鋪上麵包丁和蔓越莓增添層次與口感，是款幸福感滿溢的點心。<奶蛋素>"
+      },
+      {
+        "name": "起司玉米麵包",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20211125172128799.jpg",
+        "price": 120,
+        "intro": "#早餐35元加價購質樸鬆軟的麵包體包裹玉米和起司，慢慢地咀嚼慢慢地感受每一口的香氣。"
+      },
+      {
+        "name": "照燒雞肉三明治",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20211125174158280.jpg",
+        "price": 175,
+        "intro": "新燕麥堡體的柔軟度及保水性更佳，夾入滑蛋雞肉（雞肉、雞蛋、洋蔥），充分體現日式風味的清爽不油膩，濕潤的蛋汁與雞肉拌合，再加上洋蔥和爽脆牛蒡絲的提香，口感滑嫩鮮香，與新鮮的蘿美生菜搭配，更是爽口宜人。"
+      },
+      {
+        "name": "雞肉可頌堡",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20190617141359220.jpg",
+        "price": 200,
+        "intro": "美味可頌堡是星巴克經典的早餐食品。添加來自法國愛樂薇奶油所製成的可頌堡體，酥脆的外皮、細緻的口感，夾上蛋白片、切達起司與火雞肉片佐以青醬風味及迷人的雞肉煙燻香氣，是體驗美妙味覺享受的最佳早餐選擇。"
+      },
+      {
+        "name": "起司里肌可頌",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20180525143333913.jpg",
+        "price": 160,
+        "intro": "選用里肌肉片，調合香醇起司片與滑順的美奶滋夾入烘烤香酥的原味可頌；香酥柔軟的獨特口感，提供不同肉品風味選擇。 豬肉產地：台灣"
+      },
+      {
+        "name": "黑松露嫩蛋三明治",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20191204191006234.jpg",
+        "price": 170,
+        "intro": "柔軟具奶香的布里歐麵包盛裝滿滿餡料，結合了綿密口感的滑蛋、洋菇、洋蔥等食材，淋上少許黑松露醬汁提鮮，滋味豐富，香軟迷人！"
+      },
+      {
+        "name": "雙起司軟歐麵包",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20210121145436145.jpg",
+        "price": 135,
+        "intro": "#三起司軟法麵包升級版麵團使用低溫熟成麵種與法國麵粉，堡體Q軟帶有嚼勁的口感。表面調和了起司鮮奶油醬與起司丁裝飾，內餡包裹奶油起司餡提供多層次口感，與咖啡絕妙搭配！"
+      },
+      {
+        "name": "巧克力生吐司",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20210512171009727.jpg",
+        "price": 135,
+        "intro": "使用法芙娜巧克力使用法國優質巧克力品牌-法芙娜為原料，除了麵包體拌入巧克力外，也加入了烘烤後會呈現半融狀態的巧克力片，為整體風味帶來更濃郁的深度與層次。"
+      },
+      {
+        "name": "芋見雞肉鬆帕里尼",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20210715181003583.jpg",
+        "price": 165,
+        "intro": "#升級健康雞肉鬆，濃郁芋泥增量漂亮的軟麵包揉入芋頭呈現淡紫色，滿滿微甜柔軟芋泥，再鋪上雞肉鬆，風味十足口感更佳，再加入秘密武器「鹹奶油」加熱後化開於內餡，鹹甜混搭超對味，熱壓後口感酥脆更加分!"
+      },
+      {
+        "name": "經典總匯三明治",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/2021112516485368.jpg",
+        "price": 185,
+        "intro": "散發帕瑪森起司香氣的堡體，口感有嚼勁，佐入墨西哥風味醬，再夾上鹹香多汁的烤培根與各式香料醃製而成的烤雞肉，搭配新鮮爽脆的牛番茄與花椰菜，豐富又令人滿足的份量，適合正餐時段享用。豬肉產地：台灣"
+      },
+      {
+        "name": "海鹽奶油捲",
+        "img_url": "https://bkmgr.starbucks.com.tw/common/objects/images/cake/20190528142948629.jpg",
+        "price": 120,
+        "intro": "可愛小巧的螺旋麵包捲夾入一塊法國總統牌奶油，入口柔軟鹹香，麵包上灑著少許法國布列塔尼的葛宏德日曬海鹽提鮮味，烘烤後麵包中心及底部流出少許融化奶油的微焦酥脆，是款新人氣麵包。*點購任一中杯飲料，可加價$35享海鹽奶油捲乙份"
+      }
+    ]
+  }
+]

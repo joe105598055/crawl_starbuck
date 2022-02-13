@@ -17,7 +17,8 @@ def get_categories():
 
     catId_links = map(lambda x: {'category':x.text,'url':x.get('href')},filter(is_catId_link,links))
 
-    result = list(catId_links)[0:6]
+    # 取n比 [0:n]
+    result = list(catId_links)[0:1]
 
     return result
 

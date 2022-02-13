@@ -16,11 +16,12 @@ def get_detail(product_link):
 
     product['name'] = soup.find("h1",{'class':'title_cn'}).text
     product['img_url'] = BASE_URL + soup.find('div',{'class':'image_block'}).find('img').get('src')
-    product['price'] = soup.find("h3",{'class':'price'}).text.replace("起","")
+    product['price'] = int(soup.find("h3",{'class':'price'}).text.replace("起",""))
     product['intro'] = soup.find("div",{'class':'info'}).text.replace('\n', '')
 
     download_image(product['name'],product['img_url'])
-    
+    print(product)
+
     return product
 
 def get_products(category_url):
