@@ -4,7 +4,7 @@ C:\Users\joe\firebase_auth\online-order-9cb97-firebase-adminsdk-23io1-f633cbf71f
 ##### Quick start
 ```
 // dumps all data from starbucks and download image 
-$ python main.py
+$ python dump.py
 
 // resize all file from ./data to ./resize
 $ python resize.py 
