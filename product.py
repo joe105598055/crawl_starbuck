@@ -15,11 +15,12 @@ def get_detail(product_link):
     soup = BeautifulSoup(response.text, "html.parser")
 
     product['name'] = soup.find("h1",{'class':'title_cn'}).text
-    product['img_url'] = BASE_URL + soup.find('div',{'class':'image_block'}).find('img').get('src')
+    product['origin_img'] = BASE_URL + soup.find('div',{'class':'image_block'}).find('img').get('src')
     product['price'] = int(soup.find("h3",{'class':'price'}).text.replace("起",""))
-    product['intro'] = soup.find("div",{'class':'info'}).text.replace('\n', '')
+    product['introduction'] = soup.find("div",{'class':'info'}).text.replace('\n', '')
+    product['imgUrl'] = 'https://storage.googleapis.com/online-order-9cb97.appspot.com/test/' + product['name'] + '.jpg'
 
-    download_image(product['name'],product['img_url'])
+    download_image(product['name'],product['origin_img'])
     print(product)
 
     return product
@@ -32,7 +33,7 @@ def get_products(category_url):
 
     links = soup.find_all("a")
 
-    product_links = filter(is_product_link,links)
+    product_links = list(filter(is_product_link,links))[0:10]
 
     result = []
 

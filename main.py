@@ -1,4 +1,4 @@
-from base64 import encode
+# -*- coding: utf-8 -*-
 from category import get_categories
 from product import get_products
 import json

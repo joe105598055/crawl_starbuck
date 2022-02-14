@@ -1,6 +1,16 @@
+##### Env
+pipenv shell 
+C:\Users\joe\firebase_auth\online-order-9cb97-firebase-adminsdk-23io1-f633cbf71f.json
 ##### Quick start
 ```
-python3 main.py
+// dumps all data from starbucks and download image 
+$ python main.py
+
+// resize all file from ./data to ./resize
+$ python resize.py 
+
+// upload to firebase storage
+$ python upload.py
 ```
 ##### Outline
 - menu -> category -> product
@@ -8,8 +18,6 @@ python3 main.py
 
 https://firebase.google.com/docs/storage/gcp-integration#apis
 
-Env
-C:\Users\joe\firebase_auth\online-order-9cb97-firebase-adminsdk-23io1-f633cbf71f.json
 
 ##### Todo 
 - resize image
@@ -19,3 +27,8 @@ C:\Users\joe\firebase_auth\online-order-9cb97-firebase-adminsdk-23io1-f633cbf71f
 
 ##### Ref
 [Set 'GOOGLE_APPLICATION_CREDENTIALS' environment variable](https://cloud.google.com/docs/authentication/getting-started).
+
+
+##### Note
+✔ Successfully created virtual environment! 
+Virtualenv location: /Users/joehuang/.local/share/virtualenvs/crawl_starbuck-Kr1KoODs
